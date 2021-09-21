@@ -26,7 +26,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -178,32 +178,5 @@
       <updated>1578310641241</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1419" height="196" key="GridCell.Tab.0.bottom" timestamp="1613200785873">
-      <screen x="0" y="23" width="1440" height="827" />
-    </state>
-    <state width="1419" height="196" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612800045370" />
-    <state width="1419" height="196" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1613200785873" />
-    <state width="1419" height="196" key="GridCell.Tab.0.center" timestamp="1613200785871">
-      <screen x="0" y="23" width="1440" height="827" />
-    </state>
-    <state width="1419" height="196" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1612800045367" />
-    <state width="1419" height="196" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1613200785871" />
-    <state width="1419" height="196" key="GridCell.Tab.0.left" timestamp="1613200785869">
-      <screen x="0" y="23" width="1440" height="827" />
-    </state>
-    <state width="1419" height="196" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1612800045366" />
-    <state width="1419" height="196" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1613200785869" />
-    <state width="1419" height="196" key="GridCell.Tab.0.right" timestamp="1613200785872">
-      <screen x="0" y="23" width="1440" height="827" />
-    </state>
-    <state width="1419" height="196" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1612800045368" />
-    <state width="1419" height="196" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1613200785872" />
-    <state x="399" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1614856420491">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="399" y="266" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1614856420491" />
-    <state x="399" y="267" key="com.intellij.ide.util.TipDialog/0.23.1440.827@0.23.1440.827" timestamp="1608626828709" />
   </component>
 </project>
