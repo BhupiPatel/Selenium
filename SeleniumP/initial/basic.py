@@ -4,8 +4,8 @@ from selenium.webdriver.support.ui import Select
 from time import sleep
 
 
-driver = webdriver.Chrome("/Users/bhupeshpatel/Downloads/chromedriver")
-driver.get("https://devlocal.patientmd.com:8080/#/dashboardpat")
+driver = webdriver.Chrome("C:/Users/thebh/Downloads/chromedriver.exe")
+driver.get("https://www.google.com/")
 driver.maximize_window()
 driver.implicitly_wait(30)
 driver.find_element_by_xpath("//*[@name='q']").send_keys("bhupi")

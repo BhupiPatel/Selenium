@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="171e4d2c-8118-48e1-af78-006fd7a68326" name="Default Changelist" comment="" />
+    <list default="true" id="171e4d2c-8118-48e1-af78-006fd7a68326" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/SeleniumP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SeleniumP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initial/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/initial/basic.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +42,7 @@
       <recent name="$PROJECT_DIR$/PyTest/.pytest_cache" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test1">
+  <component name="RunManager" selected="Python.basic">
     <configuration name="basic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SeleniumP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.basic" />
         <item itemvalue="Python.test1" />
         <item itemvalue="Python.loginWithSelenium" />
         <item itemvalue="Python.pup_ups" />
         <item itemvalue="Python.others" />
-        <item itemvalue="Python.basic" />
       </list>
     </recent_temporary>
   </component>
