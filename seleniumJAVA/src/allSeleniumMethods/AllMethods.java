@@ -9,6 +9,7 @@ import java.util.Set;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
@@ -41,12 +42,14 @@ public class AllMethods {
 //		window
 		driver.switchTo().window(a.get(0));
 		driver.switchTo().window(a.get(1));
+		
 //		Alert
 		Alert al=driver.switchTo().alert();
 		al.accept();
 		al.dismiss();
 		al.getText();
 		driver.switchTo().activeElement();
+		driver.switchTo().defaultContent();
 		driver.switchTo().alert();
 		driver.switchTo().alert().accept();
 		driver.switchTo().alert().dismiss();
@@ -57,8 +60,9 @@ public class AllMethods {
 		driver.switchTo().frame(0);
 		driver.switchTo().frame("");
 		driver.switchTo().frame(driver.findElement(By.xpath("")));
-		driver.switchTo().defaultContent();
+		driver.switchTo().parentFrame();
 		
+//		Nav
 		Navigation nav=driver.navigate();
 		nav.back();
 		nav.forward();
@@ -77,6 +81,10 @@ public class AllMethods {
 		driver.manage().getCookieNamed("");
 		driver.manage().getCookies();
 		driver.manage().logs();
+		// Add a session cookie before auth to simulate SSO
+		Cookie sso = new Cookie("SSO_TOKEN", "abcdef123");
+		driver.manage().addCookie(sso);
+
 //		Manage.window
 		driver.manage().window().fullscreen();
 		driver.manage().window().maximize();
@@ -85,9 +93,12 @@ public class AllMethods {
 		driver.manage().window().setPosition(new Point(0, 0));
 		Dimension d=driver.manage().window().getSize();
 		driver.manage().window().setSize(new Dimension(0, 0));
+		
 //		Manage.timeout
 		driver.manage().timeouts();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().getPageLoadTimeout();
+		driver.manage().timeouts().getScriptTimeout();
 		
 //		Element (Search Context)
 		WebElement e=driver.findElement(By.xpath(""));
